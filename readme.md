@@ -1,4 +1,4 @@
-# Ambiente
+# Introdução a Ciência da Computação
 
 
 # Install [libcs50](https://github.com/cs50/libcs50)

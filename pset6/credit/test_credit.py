@@ -12,14 +12,14 @@ from credit import main
 # sys.path.insert(0, "../credit")
 
 
-credit_card_test_data = []
+test_data = []
 
 
 with open("test_data.csv", "r") as f:
     reader = csv.reader(f)
     headers = next(reader)
     for cc_number, brand in reader:
-        credit_card_test_data.append((int(cc_number), brand))
+        test_data.append((int(cc_number), brand))
 
 
 @pytest.fixture()
@@ -32,7 +32,7 @@ def invalid_card_input(Card):
     return Card(1234567890, "INVALID")
 
 
-@pytest.fixture(params=credit_card_test_data)
+@pytest.fixture(params=test_data)
 def card_input(Card, request):
     return Card(*request.param)
 

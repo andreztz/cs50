@@ -16,3 +16,6 @@ $ yay -S libcs50
 $ pip install -r requirement.txt
 
 ```
+
+
+https://github.com/cs50/python-cs50

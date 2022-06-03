@@ -1,3 +1,8 @@
 style50==2.7.5
 check50==3.3.6
 submit50==3.1.1
+cs50==9.0.0
+pytest==7.1.2
+pytest-cov==3.0.0
+flake8==4.0.1
+black==22.3.0

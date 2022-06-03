@@ -1,4 +1,4 @@
-# Introdução a Ciência da Computação
+# CS50 - Exercícios
 
 
 # Install [libcs50](https://github.com/cs50/libcs50)

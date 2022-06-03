@@ -1,4 +1,4 @@
-# CS50 - Exercícios
+# CS50
 
 
 # Install [libcs50](https://github.com/cs50/libcs50)
